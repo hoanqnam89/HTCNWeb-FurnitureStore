@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/html/Cart/Cart.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <div class="">
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #5EBEC4; height: 70px;">
+            <a class="navbar-brand" href="/html/HomePage/homepage.html"><img src="/images/Logo.png" alt="" srcset="" style="width:80px;margin-left: 10px;"></a>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/html/IntroducePage/IntroducePage.html" role="button">Introduce</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/html/ProductPage/Table/Table.html">Table</a></li>
+                            <li><a class="dropdown-item" href="/html/ProductPage/Chair/Chair.html">Chair</a></li>
+                            <li><a class="dropdown-item" href="/html/ProductPage/Cabin/Cabin.html">Cabin</a></li>
+                          </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/html/News/VietNamRenovation/VietNamRenovation.html">VIETNAM RENOVATION</a></li>
+                            <li><a class="dropdown-item" href="/html/News/HomeTips/HomeTips.html">HOME TIPS</a></li>
+                            <li><a class="dropdown-item" href="/html/News/LookBook/LookBook.html">LOOKBOOK</a></li>
+                          </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <label class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="welcome-label"></label>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/html/Cart/Cart.html">Giỏ hàng</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="/html/HomePage/homepage.html"><label role="button" id="logOutLabel">Đăng xuất</label></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+    <section class="h-100 h-custom">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12">
+              <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                <div class="card-body p-0">
+                  <div class="row g-0">
+                    <div class="col-lg-8">
+                      <div class="p-5">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                          <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+                        </div>
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center" id="cart-items" >
+                          <!-- <div class="col-md-2 col-lg-2 col-xl-2">
+                            <img
+                              src="/images/ban-lamviec-johy_02_c3c622bc6faa48dc8204445feeeb5ee0_large.png"
+                              class="img-fluid rounded-3" alt="Ban Lam Viec">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-muted">Table</h6>
+                            <h6 class="text-black mb-0">Table JOHY</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                              <i class="fa fa-minus"></i>
+                            </button>
+      
+                            <input id="form1" min="0" name="quantity" value="1" type="number"
+                              class="form-control form-control-sm" />
+      
+                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                              <i class="fa fa-plus"></i>
+                            </button>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0">3.087.500 VNĐ</h6>
+                          </div>
+                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                            <a href="#!" class="text-muted"><i class="fa fa-trash"></i></i></a>
+                          </div> -->
+                        </div>
+      
+      
+                        <div class="pt-5">
+                          <h6 class="mb-0"><a href="/html/ProductPage/Table/Table.html" class="text-body"><i
+                                class="fa fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 bg-grey">
+                      <div class="p-5">
+                        <h3 class="fw-bold mb-5 mt-2 pt-1">Thanh toán</h3>
+                        <hr class="my-4">
+      
+                        <div class="d-flex justify-content-between mb-4">
+                          <h5 class="text-uppercase" id="allProductItemsCount">Số lượng sản phẩm: </h5>
+                          <h5></h5>
+                        </div>
+      
+                        <h5 class="text-uppercase mb-3">Vận chuyển</h5>
+      
+                        <div class="mb-4 pb-2">
+                          <select data-mdb-select-init>
+                            <option value="1">Nhanh - 35.000 VNĐ</option>
+                          </select>
+                        </div>
+      
+                        <h5 class="text-uppercase mb-3">Mã giảm giá</h5>
+      
+                        <div class="mb-5">
+                          <div data-mdb-input-init class="form-outline">
+                            <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                            
+                          </div>
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="d-flex justify-content-between mb-5">
+                          <h5 class="text-uppercase" id="allProductPrice">Tổng số tiền</h5>
+                          <h5></h5>
+                        </div>
+      
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-block btn-lg"
+                          data-mdb-ripple-color="dark" id="payBtn">Thanh toán</button>
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="/images/Logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p class="text-light">Make My Home xây dựng một thương hiệu thân thiện thông qua cách chúng tôi làm sản phẩm và đem sản phẩm đó đến tay của bạn.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul class="text-light">
+                                <li><a href="#" class="text-light">Home</a></li>
+                                <li><a href="#" class="text-light">about</a></li>
+                                <li><a href="#" class="text-light">services</a></li>
+                                <li><a href="#" class="text-light">portfolio</a></li>
+                                <li><a href="#" class="text-light">Contact</a></li>
+                                <li><a href="#" class="text-light">About us</a></li>
+                                <li><a href="#" class="text-light">Our Services</a></li>
+                                <li><a href="#" class="text-light">Expert Team</a></li>
+                                <li><a href="#" class="text-light">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p class="text-light">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fa fa-arrow-right"></i></button>
+                                </form>
+                                <br>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fa fa-facebook facebook-bg"></i></a>
+                                    <a href="#"><i class="fa fa-instagram twitter-bg"></i></a>
+                                    <a href="#"><i class="fa fa-google google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/Cart.js"></script>
+</body>
+</html>

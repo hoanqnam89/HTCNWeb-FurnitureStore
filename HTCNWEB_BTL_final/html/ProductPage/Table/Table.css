@@ -1,0 +1,323 @@
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    font-size: larger;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+    visibility: visible;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white !important;
+}
+.page-heading .inner-content {
+    padding: 150px 0px;
+    text-align: center;
+    background-image: url(/images/ban-lamviec-johy_02_c3c622bc6faa48dc8204445feeeb5ee0_large.png);
+}
+.page-heading .inner-content h2 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.page-heading .inner-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-style: italic;
+}
+
+#products .section-heading {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+#products .item {
+  margin-bottom: 30px;
+}
+
+#products .item .thumb img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#products .item .down-content {
+  padding-top: 20px;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+}
+
+#products .item .down-content h4 {
+  font-size: 22px;
+  color: #2a2a2a;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#products .item .down-content span {
+  font-size: 18px;
+  color: #a1a1a1;
+  font-weight: 500;
+  display: block;
+}
+
+#products .item .down-content ul.stars {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+#products .item .down-content ul.stars li {
+  display: inline;
+  font-size: 13px;
+}
+
+#products .item .thumb .hover-content {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  bottom: -60px;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+#products .item .thumb:hover .hover-content {
+  bottom: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+
+#products .item .thumb {
+  position: relative;
+}
+
+#products .item .thumb .hover-content ul li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+#products .item .thumb .hover-content ul li a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  color: #2a2a2a;
+  background-color: #fff;
+}
+
+#products .pagination {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#products .pagination ul {
+  text-align: center;
+  width: 100%;
+}
+
+#products .pagination ul li {
+  display: inline;
+  margin: 0px 5px;
+}
+
+#products .pagination ul li a {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #2a2a2a;
+  display: inline-block;
+  text-align: center;
+  line-height: 44px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2a2a2a;
+}
+
+#products .pagination ul li a:hover,
+#products .pagination ul li.active a {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+  border: 2px solid black;
+}
+.twitter-bg{
+  background: #55ACEE;
+  border: 2px solid black;
+}
+.google-bg{
+  background: #DD4B39;
+  border: 2px solid black;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+.footer-section {
+    background-color: #5EBEC4;
+}
